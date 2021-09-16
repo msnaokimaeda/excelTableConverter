@@ -94,9 +94,7 @@ int main(int argc, char *argv[]){
     // 結果の書き込み
     for(int i=0;i<=row-1;i++){
         fprintf(fp,"%s","\n");
-        if(i==0){
-            fprintf(fp,"%s","| # | 論理名 | 物理名 | データ型 | 必須 | デフォルト | コメント |");
-            fprintf(fp,"%s","\n");
+        if(i==1){
             fprintf(fp,"%s","|:--:|:--:|:--:|:--:|:--:|:--:|:--:|");
             fprintf(fp,"%s","\n");
         }
