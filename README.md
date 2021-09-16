@@ -1,0 +1,2 @@
+# excelTableConverter
+A5M2で出力されたテーブルをmd形式のテーブルに変換する
